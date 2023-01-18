@@ -1,0 +1,98 @@
+
+:root{
+  --fontMartian: 'Martian Mono', monospace;
+}
+
+.flex{
+  display: flex;
+}
+
+.space-around{
+  justify-content: space-around;
+}
+
+.space-between{
+  justify-content: space-between
+}
+
+.centerX{
+  justify-content: center;
+}
+.centerY{
+  align-content: center;
+}
+
+.centerText{
+  text-align: center;
+}
+
+.header-div{
+  background-color: rgb(74, 74, 255);
+}
+
+.padding1{
+  padding: 1vh;
+}
+
+.padding-lr{
+  padding-left: 1.5vw;
+  padding-right: 1.5vw;
+}
+
+.margin-bot10{
+  margin-bottom: 10vh;
+}
+
+.font-bold{
+  font-weight: bold;
+}
+
+.font-size3{
+  font-size: 3vh;
+}
+
+.font-size1{
+  font-size: 2vh;
+}
+
+.line-height5{
+  line-height: 5vh;
+}
+
+.header-text{
+  font-family: var(--fontMartian);
+  font-weight: bold;
+  font-size: 4vh;
+  margin-bottom: 0;
+  padding: 1vh;
+}
+
+.top-bar{
+  margin-top: 5vh;
+  margin-bottom: 5vh;
+  width: 60vw;
+  height: 4vh;
+  background-color: silver;
+}
+
+.main-page{
+  background-color: bisque;
+  width: 50%;
+}
+
+.cat-img{
+  position: absolute;
+  width: 16vw;
+  height: 14vh;
+  left:78vw;
+}
+
+.cat-text{
+  position: absolute;
+  left: 90vw;
+  top: 23vh;
+  font-weight: bold;
+  color: red;
+}
+
+
